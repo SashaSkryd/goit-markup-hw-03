@@ -6,9 +6,6 @@
 rgba(255, 255, 255, 0.6); футер ссылки
 #F5F4FA цвет фона вторичный
 #2F303A цвет футера */
-* {
-  margin: 0;
-}
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -25,7 +22,19 @@ body {
 .link {
   text-decoration: none;
 }
+.conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 /*header*/
+.header {
+  background-color: #fff;
+}
+.heder-content {
+  display: flex;
+}
 .link-logotipe {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -33,6 +42,9 @@ body {
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
 }
 .part-logotipe {
   color: var(--accent-color);
@@ -44,9 +56,19 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
+.link-header:not(:last-child) {
+  margin-right: 50px;
+}
 .link-header:hover,
 .link-header:focus {
   color: var(--accent-color);
+}
+.header-list {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 0;
+  margin: 0;
 }
 .connect-header {
   font-weight: 500;
@@ -54,10 +76,22 @@ body {
   line-height: 1.333;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  margin-right: 50px;
+}
+.connect-header:last-child {
+  margin-right: ;
 }
 .connect-header:hover,
 .connect-header:focus {
   color: var(--accent-color);
+}
+.header-adress {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 0;
+  margin: 0;
 }
 /*hero*/
 .hero-section {
@@ -71,6 +105,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
   text-transform: uppercase;
+  margin: 0;
 }
 .hero-btn {
   width: 200px;
