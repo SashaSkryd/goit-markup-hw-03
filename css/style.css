@@ -189,6 +189,9 @@ body {
   margin-right: 30px;
 }
 /*our comand*/
+.title-comand {
+  padding-top: 94px;
+}
 .comand-section {
   background-color: #f5f4fa;
 }
