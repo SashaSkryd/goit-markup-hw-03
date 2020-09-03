@@ -108,13 +108,13 @@ button {
 /*hero*/
 .hero-section {
   display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #2f303a;
   height: 600px;
 }
 .hero-block {
   text-align: center;
+  width: 696px;
+  margin: 0 auto;
 }
 .hero-title {
   font-weight: 700;
