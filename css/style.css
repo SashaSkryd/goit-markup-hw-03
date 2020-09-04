@@ -166,6 +166,7 @@ button {
   margin-right: 30px;
 }
 .list-title {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
